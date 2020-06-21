@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+			<title>Chapter 5, Example 8</title>
+</head>
+<body>
+	<script>
+		function createPerson(firstName, lastName) {
+			return{
+				firstName: firstName,
+				lastNme: lastName,
+				getFullName:function() {
+					return this. firstName + " " + this.listName
+				},
+				greet: function(person) {
+					alert("Hello, " + person.getFullName() +
+					". I'm " + this.getFullName());
+				}
+			};
+		}
+		var johnDoe = createPerson("John", "Doe");
+		var jaheDoe = createPerson("Jahe", "Doe");
+		
+		johnDoe.greet(janeDoe);
+	</script>
+</body>
+</html>
